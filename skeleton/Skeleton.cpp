@@ -28,3 +28,7 @@ static void registerSkeletonPass(const PassManagerBuilder &,
 static RegisterStandardPasses
   RegisterMyPass(PassManagerBuilder::EP_EarlyAsPossible,
                  registerSkeletonPass);
+
+int main() {
+    SkeletonPass pass;
+}
